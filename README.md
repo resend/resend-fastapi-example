@@ -25,10 +25,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Set your RESEND_API_KEY environment changing the RESEND_API_KEY environment variable inside `.env` file:
+3. Set your RESEND_API_KEY environment variable by running:
 
 ```sh
-RESEND_API_KEY=re_123456789
+export RESEND_API_KEY="re_123456789"
 ```
 
 3. Execute the following command:
